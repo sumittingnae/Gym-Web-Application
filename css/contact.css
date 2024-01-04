@@ -1,0 +1,142 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+  }
+ section header .header {
+     background-color: #000;
+     height: 100px;
+ }
+.contact{
+    margin: 0px 0px  50px 0px;
+}
+.contact .container .wrapper{
+    background-color: #fff;
+    margin: 50px 0px 0px 0px;
+}
+
+.contact .container .wrapper .content{
+    display: flex;
+}
+/* .contact .container .wrapper .img {
+    /* border: 1px solid #000; 
+
+} */
+.contact .container .wrapper .img {
+   display: flex;
+
+}
+.contact .container .wrapper .content .forms{
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.contact .container .wrapper .content .forms h6{
+    font-size: 40px;
+}
+.contact .container .wrapper .content .forms .form input{
+    display: block;
+    width: 500px;
+    padding: 10px 15px;
+    margin: 20px 0px 0px 0px;
+    border:1px solid #fff;
+    background-color: #a1db1a;
+    color: #000000c7;
+}
+.contact .container .wrapper .content .forms .form textarea {
+    display: block;
+    width: 500px;
+    padding: 10px 15px;
+    margin: 20px 0px 0px 0px;
+    resize: none;
+    border: 1px solid #a1db1a;
+    border: 1px solid #fff;
+    background-color: #a1db1a;
+    color: #000000c7;
+}
+.contact .container .wrapper .content .forms .button{
+    text-align: center;
+    
+}
+.contact .container .wrapper .content .forms .button a button{
+background: #a1db1a;
+border: none;
+padding: 10px 15px;
+font-weight: bold;
+color: #fff;
+margin-top: 20px;
+text-align: center;
+}
+.contact .container .wrapper .content .forms .button a button:hover{
+    color: #a1db1a;
+    background:#fff ;
+    border: 1px solid #a1db1a;
+}
+
+@media(max-width:991px){
+    section header .header {
+            background-color: #000;
+            height: 50px;
+        }
+    .contact .container .wrapper .content {
+            display: block;
+        }
+    
+        .contact .container .wrapper .img {
+            border: 1px solid #000;
+            display: none;
+    
+        }
+    
+        .contact .container .wrapper .content .forms {
+            margin-left: 50px;
+            margin-top: 0px;
+        }
+    
+        .contact .container .wrapper .content .forms h6 {
+            font-size: 20px;
+        }
+    
+        .contact .container .wrapper .content .forms .form input {
+            display: block;
+            width: 100%;
+            padding: 10px 15px;
+            margin: 20px 0px 0px 0px;
+            border: 1px solid #fff;
+            background-color: #a1db1a;
+            color: #000000c7;
+        }
+    
+        .contact .container .wrapper .content .forms .form textarea {
+            display: block;
+            width: 100%;
+            padding: 10px 15px;
+            margin: 20px 0px 0px 0px;
+            resize: none;
+            border: 1px solid #a1db1a;
+            border: 1px solid #fff;
+            background-color: #a1db1a;
+            color: #000000c7;
+        }
+    
+        .contact .container .wrapper .content .forms .button {
+            text-align: center;
+    
+        }
+    
+        .contact .container .wrapper .content .forms .button a button {
+            background: #a1db1a;
+            border: none;
+            padding: 10px 15px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .contact .container .wrapper .content .forms .button a button:hover {
+            color: #a1db1a;
+            background: #fff;
+            border: 1px solid #a1db1a;
+        }
+}

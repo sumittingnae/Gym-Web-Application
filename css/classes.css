@@ -1,0 +1,196 @@
+.member img{
+    margin-top: -50px;
+}
+.member .container .wrapper .title {
+    text-align: center;
+}
+
+.member .container .wrapper .title h5 {
+    color: #8db924;
+    font-weight: bold;
+}
+
+.member .container .wrapper .title p {
+    font-size: 30px;
+
+}
+
+/* .member .container .wrapper .side {} */
+
+/* ============================one side======================== */
+.member .container .wrapper .side .one-side {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.member .container .wrapper .side .one-side .img {
+    width: 450px;
+}
+
+.member .container .wrapper .side .one-side .img img {
+    width: 100%;
+}
+
+.member .container .wrapper .side .one-side .side-content {
+    margin-left: 100px;
+    margin-top: -50px;
+
+}
+.member .container .wrapper .side .one-side .side-content h5 img {
+    margin-top: 0px;
+    margin-right: 50px;
+}
+
+.member .container .wrapper .side .one-side .side-content h5 {
+    font-size: 30px;
+    background-color: #a1db1a;
+    z-index: -1;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 30px 0px 50px 0px;
+    margin-top: 0px;
+
+}
+
+.member .container .wrapper .side .one-side .side-content p {
+    width: 450px;
+    font-size: 20px;
+}
+
+/* ===============================================end onside======================================= */
+.member .container .wrapper .side .second-side {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.member .container .wrapper .side .second-side .img {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.member .container .wrapper .side .second-side .img img {
+    width: 100%;
+}
+
+.member .container .wrapper .side .second-side .side-content {
+    margin-left: 0px;
+    margin-top: -50px;
+
+}
+.member .container .wrapper .side .second-side .side-content h5 img{
+    margin-top:0px;
+    margin-right: 50px;
+}
+.member .container .wrapper .side .second-side .side-content h5 {
+    font-size: 30px;
+    background-color: #a1db1a;
+    z-index: -1;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 30px 0px 50px 0px;
+    margin-left: 0px;
+}
+
+.member .container .wrapper .side .second-side .side-content p {
+    width: 450px;
+    font-size: 20px;
+}
+
+.member .container .wrapper .button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member .container .wrapper .button button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #a1db1a;
+    font-weight: bold;
+    color: #fff;
+
+
+
+}
+.member .container .wrapper .side a{
+    margin-left: 40%;
+}
+.member .container .wrapper .side  a button{
+    background-color: #a1db1a;
+    border: none;
+    padding: 10px 15px;
+    color: #fff ;
+    font-weight: bold;
+    margin-bottom: 20px;
+} 
+
+
+@media(max-width:991px){
+    .member img{
+        margin-top: -30px;
+    }
+    .member .container .wrapper .side .one-side {
+            display: block;
+            margin-left: 0px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+    
+        .member .container .wrapper .side .one-side .img {
+            display: none;
+        }
+    
+        .member .container .wrapper .side .one-side .side-content {
+            margin-left: 0px;
+        }
+    
+        .member .container .wrapper .side .second-side {
+            margin-left: 0px;
+    
+    
+        }
+    
+        .member .container .wrapper .side .one-side .side-content {
+            margin-left: 0px;
+        }
+    
+        .member .container .wrapper .side .second-side .side-content {
+            margin-left: 10px;
+        }
+    
+        .member .container .wrapper .side .one-side .side-content h5 {
+            font-size: 20px;
+            background-color: #a1db1a;
+            z-index: -1;
+    
+            width: 100%;
+            padding: 10px 10px;
+            color: #fff;
+            border-radius: 30px 0px 50px 0px;
+    
+        }
+    
+        .member .container .wrapper .side .second-side .side-content h5 {
+            font-size: 20px;
+            background-color: #a1db1a;
+            z-index: -1;
+            width: 100%;            
+            padding: 10px 10px;
+            color: #fff;
+            border-radius: 30px 0px 50px 0px;
+    
+        }
+    
+        .member .container .wrapper .side .one-side .side-content p {
+            width: 100%;
+            font-size: 15px;
+        }
+    
+        .member .container .wrapper .side .second-side .side-content p {
+            width: 100%;
+            font-size: 15px;
+        }
+}

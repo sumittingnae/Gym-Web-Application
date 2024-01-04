@@ -1,0 +1,381 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  
+}
+
+
+section  {
+    width: 100%;
+}
+
+section header {
+    /* border: 1px solid #fff; */
+    width: 100%;
+}
+
+section header .header {
+    width: 100%;
+
+}
+
+section header .header .container{
+    z-index: -1;
+    width: ;
+  
+}
+
+section header .header .container .wrapper .h-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 150px;
+}
+
+section header .header .container .wrapper .h-logo #side {
+    width: 200px;
+
+
+}
+
+section header .header .container .wrapper .Menu {
+    margin: 30px 0px 0px 450px;
+    font-size: 18px;
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    /* border: 1px solid #fff; */
+
+
+
+}
+
+section header .header .container .wrapper .Menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    width: 100%;
+    z-index: 1;
+
+}
+.home img {
+    background-image: linear-gradient(20deg, #000, #fff);
+    margin-top: 0px;
+    margin-top: -100px;
+    width: 100%;
+    height:700px;
+
+}
+
+.home .container .wrapper .hero {
+    /* background-color: black; */
+    
+}
+
+
+.home .container .wrapper .head {
+    z-index: -1;
+    /* background-image: linear-gradient(20deg, #000, #fff);} */
+}
+.home .container .wrapper .head h6 {
+    color: #f7f9fa;
+    margin: -350px 0px 0px 50px;
+    font-size: 80px;
+    z-index: 1;
+    width: 800px;
+    height: 0px;
+    text-shadow: 5px 6px 11px #000000c7;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.home .container .wrapper .head button{
+    background: none;
+    background-color: #a1db1a;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 50px;
+    margin-top: 200px;
+
+
+}
+.member {
+    background-color: #f4f4f4;
+    padding: 15px 0px;
+    margin-bottom: 50px;
+    
+
+}
+.member .container .wrapper .title{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.member .container .wrapper .title h5{
+    color: #8db924;
+    font-weight: bold;
+}
+.member .container .wrapper .title p{
+font-size: 30px;
+
+}
+.member .container .wrapper .side{
+    
+}
+/* ============================one side======================== */
+.member .container .wrapper .side .one-side{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.member .container .wrapper .side .one-side .img {
+    width: 550px ;
+}
+.member .container .wrapper .side .one-side .img img{
+    width:100%;
+}
+.member .container .wrapper .side .one-side .side-content {
+    margin-left: 50px;
+    
+}
+.member .container .wrapper .side .one-side .side-content h5{
+    font-size: 30px;
+    background-color: #a1db1a;
+    z-index: -1;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 30px 0px 50px 0px;
+    
+}
+.member .container .wrapper .side .one-side .side-content p{
+    width: 500px;
+    font-size: 20px;
+}
+/* .member .container .wrapper .side .one-side .side-content p span{
+    color: #a1db1a;
+        text-shadow: 5px 6px 11px #c1c1c1;
+        font-weight: bold;
+} */
+/* ===============================================end onside======================================= */
+.member .container .wrapper .side .second-side {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+/* .member .container .wrapper .side .second-side .side-content p span {
+    color: #a1db1a;
+    text-shadow: 5px 6px 11px #c1c1c1;
+    font-weight: bold;
+} */
+
+.member .container .wrapper .side .second-side .img {
+    width: 500px;
+   margin-left: 100px;
+}
+
+.member .container .wrapper .side .second-side .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.member .container .wrapper .side .second-side .side-content {
+    margin-left: 0px;
+
+}
+
+.member .container .wrapper .side .second-side .side-content h5 {
+    font-size: 30px;
+    background-color: #a1db1a;
+    z-index: -1;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 30px 0px 50px 0px;
+
+}
+
+.member .container .wrapper .side .second-side .side-content p {
+    width: 500px;
+    
+    font-size: 20px;
+}
+.member .container .wrapper .button{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.member .container .wrapper .button button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #a1db1a;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.trainer .container .wrapper .trainers .title{
+    text-align: center;
+}
+.trainer .container .wrapper .trainers .title h5{
+
+    color: #8db924;
+    font-weight: bold;
+    
+       
+}
+.trainer .container .wrapper .trainers .title p{
+        font-size: 30px;
+} 
+.trainer .container .wrapper .trainers .content{
+    margin-left: 20px;
+}
+/* .trainer .container .wrapper .trainers .content p span{
+    color: #a1db1a;
+    text-shadow: 5px 6px 11px #c1c1c1; 
+    font-weight: bold;
+} */
+.trainer .container .wrapper .trainers .button{
+        text-align: center;
+}
+.trainer .container .wrapper .trainers .button a button{
+    padding: 10px 15px;
+        border: none;
+        background-color: #a1db1a;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 20px;
+       
+}
+
+
+@media(max-width:991px) {
+section header{
+    width: 100%;
+}
+    section header .header {
+            background-color: #353535;
+            height:70px;
+            width: 100%;
+        }
+     section header .header .container{
+        width: 100%;
+        /* border: 1px solid #848282; */
+     }
+          section header .header .container .wrapper{
+            width: 100%;
+            /* border: 1px solid #696868; */
+          }
+    section header .header .container .wrapper .h-logo img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 30px;
+    }
+    section header .header .container .wrapper .Menu {
+        margin: 50px 0px 0px 0%;
+        display: none;
+
+
+    }
+
+    section header .header .container .wrapper .Menu a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 20px;
+    }
+  .home img{
+    height: 500px;
+  }
+         .home .container .wrapper .head{
+            width: 100%;
+         }
+.home .container .wrapper .head h6{
+    width: 100%;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    font-size: 50px;
+    margin: -350px 0px 0px 30px;
+}
+.home .container .wrapper .head button {
+    background: none;
+    background-color: #a1db1a;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 30px;
+    margin-top: 200px;
+
+
+}
+.member{
+    width: 100%;
+}
+.member .container .wrapper .side .one-side {
+    display: block;
+    margin-left:0px;
+    margin-bottom: 0px;
+}
+.member .container .wrapper .side .one-side .img{
+    display: none;
+}
+.member .container .wrapper .side .second-side .img {
+    display: none;
+}
+.member .container .wrapper .side .one-side .side-content{
+    margin-left: 0px;
+}
+.member .container .wrapper .side .second-side{
+    margin-left: 0px;
+    margin-top: 50px;
+       
+}
+.member .container .wrapper .side .one-side .side-content {
+    margin-left: 0px;
+}
+.member .container .wrapper .side .second-side .side-content {
+    margin-left: 0px;
+}
+.member .container .wrapper .side .one-side .side-content h5 {
+    font-size: 20px;
+    background-color: #a1db1a;
+    z-index: -1;
+    width: 100%;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 30px 0px 50px 0px;
+
+}
+.member .container .wrapper .side .second-side .side-content h5 {
+    font-size: 20px;
+    background-color: #a1db1a;
+    z-index: -1;
+    width: 100%;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 30px 0px 50px 0px;
+
+}
+.member .container .wrapper .side .one-side .side-content p{
+    width: 100%;
+    font-size: 15px;
+}
+.member .container .wrapper .side .one-side .side-content p span {
+        color: #a5e60d;
+        text-shadow: 5px 6px 11px #c1c1c1;
+}
+
+.member .container .wrapper .side .second-side .side-content p {
+    width: 100%;
+    font-size: 15px;
+}
+
+
+} 

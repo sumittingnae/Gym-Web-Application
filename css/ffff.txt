@@ -1,0 +1,46 @@
+ <!-- <div class="one-side">
+                            <div class="img">
+                              <img src="template/instructor.jpg" alt=""> 
+                            </div>
+                            <div class="side-content">
+                                <h5><img src="template/qi.png" alt="" width="50px"> Qulified Instructor</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dolore, laboriosam? Perspiciatis distinctio debitis eius 
+                                    modi quam voluptatum ut optio suscipit nisi in possimus quas 
+                                    itaque nostrum, officiis deleniti magni cum.</p>
+
+                            </div>
+
+                        </div>
+
+
+                        /* ============================left side======================== */
+/* .member .container .wrapper .side .one-side{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.member .container .wrapper .side .one-side .img {
+    width: 400px ;
+}
+.member .container .wrapper .side .one-side .img img{
+    width:100%;
+}
+.member .container .wrapper .side .one-side .side-content {
+    margin-left: 200px;
+    
+}
+.member .container .wrapper .side .one-side .side-content h5{
+    border: 1px solid #8db924;
+    width:300px;
+    padding: 5px 10px;
+    background-color: #8db924;
+    border-radius: 0px 20px 0px 20px;
+    color: #fff;
+
+}
+.member .container .wrapper .side .one-side .side-content p{
+    width: 400px;
+    font-size: 20px;
+}
+ */

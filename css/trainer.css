@@ -1,0 +1,139 @@
+section header .header {
+    background-color: #000;
+    height: 100px;
+}
+.trainer{
+    margin-top: 100px;
+        margin-bottom: 100px;
+}
+.trainer .container .wrapper .title{
+    text-align: center;
+    width: 100%;
+   
+   
+}
+
+.trainer .container .wrapper .title h5{
+    color: #8db924;
+    font-weight: bold;
+}
+.trainer .container .wrapper .title p{
+    font-size: 30px;
+}
+.trainer .container .wrapper .card{
+    border: none;
+    margin-bottom: 100px;
+    /* border: 1px solid #000; */
+}
+.trainer .container .wrapper .cards{
+    display: flex;
+}
+.trainer .container .wrapper .card{
+    width: 20rem;
+    height:30rem;
+}
+.trainer .container .wrapper .card .img{
+    width: 300px;
+    height: 300px;
+    
+}
+ .trainer .container .wrapper .card .card-body .card-text{
+    height: 150px;
+    width: 280px;
+ }
+ /* .trainer .container .wrapper .card .card-body .card-text span {
+     color: #a1db1a;
+     text-shadow: 5px 6px 11px #c1c1c1;
+     font-weight: bold;
+    
+ } */
+.trainer .container .wrapper .card .img img{
+        height: 100%;
+        width: 100%;
+}
+.trainer .container .wrapper .card .card-body  .btn {
+    background: #a1db1a;
+    color: #fff;
+    border: none;
+    margin-bottom: 100px;
+}
+.trainer .container .wrapper .card .card-body .btn:hover{
+    background: #fff;
+        color: #a1db1a;
+        border: 1px solid #a1db1a;
+}
+
+
+@media(max-width:991px ){
+    section header .header {
+            background-color: #000;
+            height: 50px;
+        }
+    .trainer {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+    
+        .trainer .container .wrapper .title {
+            text-align: center;
+            width: 100%;
+    
+    
+        }
+    
+        .trainer .container .wrapper .title h5 {
+            color: #8db924;
+            font-weight: bold;
+        }
+    
+        .trainer .container .wrapper .title p {
+            font-size: 30px;
+        }
+         .trainer .container .wrapper .title p span{
+            
+         }
+    
+        .trainer .container .wrapper .card {
+            border: none;
+            /* border: 1px solid #000; */
+        }
+    
+        .trainer .container .wrapper .cards {
+            display: block;
+            margin-left: 50px;
+        }
+    
+        .trainer .container .wrapper .card {
+            width: 20rem;
+            height: 35rem;
+        }
+    
+        .trainer .container .wrapper .card .img {
+            width: 300px;
+            height: 300px;
+    
+        }
+    
+        .trainer .container .wrapper .card .img img {
+            height: 100%;
+            width: 100%;
+        }
+         .trainer .container .wrapper .card .card-body .card-text span{
+            color: #a1db1a;
+                text-shadow: 5px 6px 11px #c1c1c1;
+                font-weight: bold;
+                }
+    
+        .trainer .container .wrapper .card .card-body .btn {
+            background: #a1db1a;
+            color: #fff;
+            border: none;
+            margin-bottom: 100px;
+        }
+    
+        .trainer .container .wrapper .card .card-body .btn:hover {
+            background: #fff;
+            color: #a1db1a;
+            border: 1px solid #a1db1a;
+        }
+}
